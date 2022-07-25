@@ -1,0 +1,7 @@
+.chat_dashboard {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--color-white);
+    height: 150vh;
+}
+

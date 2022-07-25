@@ -2,9 +2,9 @@ import './Chats.css';
 
 const Chats = () => {
     return (
-        <div className="Chats">
+        <section className="chats">
             Chats
-        </div>
+        </section>
      );
 }
  

@@ -4,7 +4,7 @@ import Chats from './components/layout/Chats/Chats';
 
 function App() {
   return (
-    <div className="chat_dashboard">
+    <div className="chat_dashboard container">
       <Union />
       <Chats />
     </div>

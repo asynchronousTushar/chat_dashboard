@@ -1,0 +1,76 @@
+.navigation {
+    width: 20%;
+    box-shadow: 2px 2px 1rem var(--color-grey-variant);
+    background-color: var(--color-white);
+    padding: 4rem 0;
+    position: relative;
+}
+
+.nav-head {
+    margin-bottom: 4rem;
+}
+
+.nav-image {
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgb(218, 216, 212);
+    box-shadow: inset 0px 4px 4px rgba(22, 14, 14, 0.925);
+}
+
+.nav-title {
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.nav-title-arrow {
+    display: inline-block;
+    transform: translateY(.21rem);
+    margin-left: .21rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav-item {
+    color: var(--color-grey);
+    font-weight: 600;
+    padding-left: 3rem;
+    line-height: 2.2rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.nav-icon {
+    margin-right: 2rem;
+    transform: translateY(.4rem);
+    font-size: 1.5rem;
+}
+
+.nav-footer {
+    position: absolute;
+    bottom: 4rem;
+}
+
+.nav>.active {
+    border-left: 5px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+nav .nav-item:hover {
+    color: var(--color-primary) !important;
+
+}
+
+.nav-footer>.nav-item:hover {
+    color: var(--color-danger) !important;
+}

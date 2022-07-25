@@ -23,9 +23,9 @@
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 75%;
-    --container-width-md: 85%;
-    --container-width-sm: 90%;
+    --container-width-lg: 100%;
+    --container-width-md: 100%;
+    --container-width-sm: 100%;
 }
 
 html {
@@ -43,6 +43,7 @@ html {
 
 body {
     font-family: primaryFont;
+    background-color: var(--color-bg);
 }
 
 .container {
