@@ -91,6 +91,15 @@
     border-radius: .4rem;
     padding: 1.5rem;
     margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.single-chat-active {
+    background-image: linear-gradient(var(--color-primary-variant), var(--color-primary));
+}
+
+.single-chat-active .single-chat-header .time {
+    color: var(--color-light);
 }
 
 .single-chat-header {
@@ -119,7 +128,14 @@
     top: 5px;
     left: 5px;
     border: 1px solid var(--color-light);
+    display: none;
 }
+
+.single-chat-head .active-icon-active {
+    display: block;
+}
+
+
 
 .single-chat-head img {
     width: 60px;
@@ -142,6 +158,10 @@
     margin-top: .2rem;
 }
 
+.single-chat-active .single-chat-head .info .message-type {
+    color: var(--color-light);
+}
+
 .single-chat-head .info .message-type span {
     margin-right: .5rem;
 }
@@ -152,11 +172,17 @@
     justify-content: space-between;
 }
 
+
 .single-chat .message p {
     color: var(--color-grey);
     font-weight: lighter;
+    font-size: .9rem;
     width: 80%;
     text-align: justify;
+}
+
+.single-chat-active .message p {
+   color: var(--color-light); 
 }
 
 .single-chat .message .alert {
@@ -170,4 +196,54 @@
     justify-content: center;
     color: var(--color-light);
     font-size: .9rem;
+}
+
+.single-chat-icon {
+    transform: translateY(.21rem);
+    margin-right: .2rem;
+}
+
+.single-chat-footer {
+    display: flex;
+    gap: 1rem;
+}
+
+.file , .photo {
+    padding: .8rem;
+    border-radius: 2rem;
+    margin-top: .7rem;
+    font-size: .4;
+}
+
+.single-chat-active .file , .single-chat-active .photo {
+    background-color: var(--color-light);
+}
+
+.file {
+    background-color: #2a8bf248;
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+.file:hover {
+    color: var(--color-light);
+    background-color: var(--color-primary);
+}
+
+.photo {
+    color: var(--color-danger);
+    background-color: #ff336649;
+    transition: var(--transition);
+}
+.photo:hover {
+    color: var(--color-light);
+    background-color: var(--color-danger);
+}
+
+.lastActive {
+    font-size: .9rem;
+    margin-top: .2rem;
+}
+
+.single-chat-active  .lastActive {
+    color: var(--color-light);
 }
