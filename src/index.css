@@ -21,7 +21,7 @@
     --color-danger: #FF3366;
     --color-danger-variant: #FF3366;
 
-    --transition: all 400ms ease;
+    --transition: all 600ms ease;
 
     --container-width-lg: 100%;
     --container-width-md: 100%;
@@ -78,13 +78,16 @@ h3 {
     border-radius: .4rem;
     transition: var(--transition);
     cursor: pointer;
-    background: linear-gradient(var(--color-primary-variant), var(--color-primary));
-    color: var(--color-grey-variant);
+    background: linear-gradient(to right, var(--color-primary-variant), var(--color-primary));
+    color: var(--color-light);
+    border: 2px solid var(--color-light-variant);
 }
 
 .btn:hover {
-    background: var(--color-grey-variant);
+    background: var(--color-light);
     color: var(--color-primary);
+    border-color: var(--color-primary);
+
 }
 
 img {

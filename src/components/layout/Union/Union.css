@@ -1,6 +1,6 @@
 .navigation {
     width: 20%;
-    box-shadow: 2px 2px 1rem var(--color-grey-variant);
+    box-shadow: 1px 1px .5rem var(--color-grey-variant);
     background-color: var(--color-white);
     padding: 4rem 0;
     position: relative;

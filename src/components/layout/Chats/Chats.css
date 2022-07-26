@@ -1,5 +1,6 @@
 .chats {
-    width: 84%;
-    background:linear-gradient(var(--color-light), var(--color-light-variant));
-    padding: 4rem 2rem;
+    width: 80%;
+    background: linear-gradient(var(--color-light), var(--color-light-variant));
+    padding-top: 6rem;
+    display: flex;
 }
