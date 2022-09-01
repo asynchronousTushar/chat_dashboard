@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/chat_dashboard/static/css/main.cd576075.css",
+    "main.js": "/chat_dashboard/static/js/main.d47a8cfb.js",
+    "static/media/TTNorms-Medium.otf": "/chat_dashboard/static/media/TTNorms-Medium.b2ec10270eb8117b0b05.otf",
+    "index.html": "/chat_dashboard/index.html",
+    "main.cd576075.css.map": "/chat_dashboard/static/css/main.cd576075.css.map",
+    "main.d47a8cfb.js.map": "/chat_dashboard/static/js/main.d47a8cfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd576075.css",
+    "static/js/main.d47a8cfb.js"
+  ]
+}
