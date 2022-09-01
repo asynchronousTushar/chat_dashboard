@@ -134,7 +134,7 @@ const Chat = () => {
                     </div>
                 </div>
 
-                <h6 className="hr">3 days ago</h6>
+                <p className="hr">3 days ago</p>
 
                 {/* ================== outgoing message ===================== */}
                 <div className="outgoing-message-container">

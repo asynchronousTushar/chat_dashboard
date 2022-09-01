@@ -99,15 +99,18 @@
     font-size: .8rem;
     color: var(--color-grey-variant);
     margin: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .chat-body .hr::after, .chat-body .hr::before {
     content: "";
     display: inline-block;
-    width: 35%;
+    width: 14vw;
     height: 1px;
     background-color: var(--color-grey-variant);
-    transform: translateY(-.25rem);
+    transform: translateY(.40rem);
     margin: 0 2rem;
 }
 
@@ -149,10 +152,10 @@
     max-width: 70%;
     color: var(--color-light);
     font-size: .9rem;
-    line-height: 1.2rem;
+    line-height: 1.1rem;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: .6rem;
 }
 
 .incoming-message-card .file-info p {
@@ -163,8 +166,7 @@
 
 .incoming-message-card .card-icon-container {
     background-color: rgba(255, 251, 251, 0.37);
-    width: 1.5rem;
-    height: 1.5rem;
+    padding: .25rem;
     border-radius: 4px;
     display: flex;
     align-items: center;
